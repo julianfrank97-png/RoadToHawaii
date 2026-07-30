@@ -1,0 +1,53 @@
+
+> triathlon-karriere-complete-career@2.0.0 test
+> npm run validate && npm run smoke
+
+
+> triathlon-karriere-complete-career@2.0.0 validate
+> node tools/validate-data.js && node tools/validate-project.js
+
+{
+  "version": "2.0.0",
+  "counts": {
+    "skills": 18,
+    "items": 70,
+    "actions": 76,
+    "races": 20,
+    "rivals": 10,
+    "sponsors": 10,
+    "quests": 30,
+    "regions": 10,
+    "perks": 16,
+    "achievements": 27,
+    "materials": 16,
+    "decisionEvents": 8
+  },
+  "warnings": [],
+  "errors": []
+}
+{
+  "status": "ok",
+  "errors": [],
+  "warnings": []
+}
+
+> triathlon-karriere-complete-career@2.0.0 smoke
+> node tools/smoke-test.js
+
+{
+  "status": "ok",
+  "version": "2.0.0",
+  "renderedCharacters": 18650,
+  "targetRace": "club_supersprint",
+  "trainingLoad": {
+    "swim": 28,
+    "bike": 0,
+    "run": 0,
+    "strength": 12,
+    "recovery": 42,
+    "race": 0
+  },
+  "decisions": 1,
+  "races": 1,
+  "marketDeals": 10
+}
