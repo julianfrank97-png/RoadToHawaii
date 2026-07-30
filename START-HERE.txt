@@ -1,0 +1,36 @@
+TRIATHLON KARRIERE v2.0.0 – COMPLETE CAREER
+================================================
+
+DAS IST EIN VOLLSTÄNDIGES NEUES REPOSITORY.
+Du brauchst keine ältere Version und musst keinen Patch installieren.
+
+AM EINFACHSTEN LOKAL STARTEN
+----------------------------
+Windows:
+1. Diesen Ordner entpacken.
+2. start_local.bat doppelt anklicken.
+3. Der Browser öffnet http://127.0.0.1:8080
+
+macOS / Linux:
+1. Terminal in diesem Ordner öffnen.
+2. chmod +x start_local.sh
+3. ./start_local.sh
+4. Im Browser http://127.0.0.1:8080 öffnen.
+
+NEUES GITHUB-REPOSITORY
+-----------------------
+1. Auf GitHub ein neues PUBLIC Repository erstellen, z. B. triathlon-karriere.
+2. Beim Erstellen KEINE README, .gitignore oder Lizenz hinzufügen.
+3. Im leeren Repository „uploading an existing file“ anklicken.
+4. Den INHALT dieses Ordners hochladen. index.html muss direkt auf der obersten Ebene liegen.
+5. Änderungen auf main committen.
+6. Settings > Pages > Deploy from a branch > main > /(root) > Save.
+7. Nach der Bereitstellung die angezeigte Pages-Adresse öffnen.
+
+WICHTIG
+-------
+- GitHub Pages ist öffentlich erreichbar.
+- Der Spielstand liegt lokal im Browser, nicht auf GitHub.
+- Spielstand regelmäßig über Einstellungen > Export sichern.
+- Für Details und Fehlerbehebung INSTALLATION.md lesen.
+- Das Spiel benötigt keinen Build und keine npm-Installation.

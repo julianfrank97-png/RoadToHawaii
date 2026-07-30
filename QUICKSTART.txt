@@ -1,0 +1,14 @@
+TRIATHLON KARRIERE v2.0.0 – COMPLETE CAREER
+
+1. ZIP entpacken.
+2. Ordner triathlon-game öffnen.
+3. Lokal testen:
+   Windows: start_local.bat
+   macOS/Linux: ./start_local.sh
+4. Neues PUBLIC GitHub-Repository erstellen, ohne automatisch erzeugte Dateien.
+5. Inhalt von triathlon-game hochladen; index.html muss im Repository-Stamm liegen.
+6. Settings > Pages > Deploy from a branch > main > /(root) > Save.
+7. Pages-Adresse öffnen.
+8. Im Spiel regelmäßig über Zahnrad > Export eine Savegame-Sicherung erstellen.
+
+Vollständige Anleitung: INSTALLATION.md
